@@ -1,0 +1,143 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Noto+Serif:wght@500&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Noto+Serif:wght@500&display=swap");
+.HomeR {
+  max-width: 1400px;
+  /* background-color: antiquewhite; */
+  overflow: hidden;
+  margin-top: -60px;
+}
+
+.Presentacion {
+  padding: 25px;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.Presentacion h1 {
+  font-family: "Noto Serif", serif;
+  font-size: 55px;
+  max-width: 400px;
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  transform: translateX(-55px);
+  z-index: 1;
+}
+.portadFond {
+  z-index: 0;
+  width: 400px;
+  right: 200px;
+  overflow: hidden;
+  height: 1099px;
+  position: absolute;
+  object-fit: contain;
+  transform: rotate(270deg);
+}
+.portadaSarten {
+  width: 300px;
+  transform: rotate(-55deg);
+
+  /* filter: drop-shadow(
+    5px 0px 5px rgba(255, 255, 255, 0.629)
+  ); */
+}
+.histori {
+  display: flex;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.histori img {
+  width: 400px;
+  height: 350px;
+  object-fit: cover;
+}
+.contHIs {
+  max-width: 500px;
+  height: 350px;
+  background-color: white;
+  color: black;
+  padding: 75px;
+}
+.menu {
+  width: 100%;
+}
+.contHIs h2 {
+  font-family: "Noto Serif", serif;
+}
+.contHIs p {
+  font-family: "Noto Serif", serif;
+  font-style: italic;
+  margin-top: 20px;
+}
+.menuTex {
+  /* width: 100%; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
+  /* transform: translateX(-45px); */
+  margin-bottom: 90px;
+}
+.conth2 {
+  flex: 1;
+  max-width: 500px;
+  /* width: 500px; */
+  display: flex;
+  justify-content: end;
+  flex-direction: column;
+}
+.menuTex h2 {
+  font-family: "Noto Serif", serif;
+
+  font-size: 35px;
+  /* max-width: 500px; */
+  text-align: end;
+}
+.disco {
+  text-align: end;
+}
+.textmenu {
+  flex: 1;
+  max-width: 500px;
+  /* margin-bottom: 15px; */
+  /* text-align: left; */
+  font-family: "Noto Serif", serif;
+  font-style: italic;
+}
+.plato {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+
+.description {
+  max-width: 280px;
+}
+.description h3 {
+  font-family: "Dancing Script", cursive;
+  font-size: 30px;
+  margin-bottom: 25px;
+  padding: 0;
+}
+.description p {
+  font-family: "Noto Serif", serif;
+  font-style: italic;
+}
+.pla1 {
+  width: 250px;
+}
+.pla2 {
+  width: 400px;
+}
+.pla3 {
+  width: 350px;
+}
+.pla4 {
+  width: 250px;
+}

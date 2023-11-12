@@ -1,0 +1,55 @@
+.ContainIngredient {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.ContainIngredient h3 {
+  font-size: 35px;
+  font-family: "Noto Serif", serif;
+}
+.ContainIngredient h3 {
+  font-size: 35px;
+}
+.ingreTex {
+  /* margin: 30px; */
+  max-width: 700px;
+  font-family: "Noto Serif", serif;
+  font-style: italic;
+  margin: 40px 0;
+}
+.ingeImag {
+  position: relative;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+.ingr1 {
+  width: 420px;
+  position: absolute;
+}
+.ingr2 {
+  width: 170px;
+  position: absolute;
+  bottom: 150px;
+  left: -370px;
+}
+.ingr3 {
+  width: 150px;
+  left: 200px;
+  bottom: 150px;
+  transform: rotate(10deg);
+  position: absolute;
+}
+.ingr4 {
+  left: -130px;
+  height: 250px;
+  bottom: 150px;
+  position: absolute;
+}
+.ingr5 {
+  left: 0px;
+  bottom: 200px;
+  width: 150px;
+  position: absolute;
+}
