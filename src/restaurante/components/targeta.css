@@ -31,7 +31,7 @@
 @media (max-width: 500px) {
   .histori {
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     width: 90%;
   }
 
