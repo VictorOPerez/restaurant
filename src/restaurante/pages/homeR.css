@@ -173,7 +173,8 @@
   .menuTex {
     flex-direction: column;
     gap: 20px;
-    /* margin-bottom: 0px; */
+    margin-bottom: 0px;
+    margin-top: 45px;
   }
   .textmenu {
     flex: 1;
