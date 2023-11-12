@@ -6,8 +6,20 @@
   justify-content: space-around;
   align-items: center;
 }
+.NavbarENla {
+  list-style: none;
+  display: flex;
+  gap: 50px;
+  text-decoration: none;
+}
 .NavbarENla a {
   text-decoration: none;
   color: aliceblue;
   font-family: "Noto Serif", serif;
+}
+
+@media (max-width: 500px) {
+  .NavbarENla {
+    display: none;
+  }
 }

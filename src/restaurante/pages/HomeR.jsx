@@ -87,7 +87,7 @@ const HomeR = () => {
             />
           </div>
         </div>
-        <div className="plato">
+        <div className="plato par">
           <div className="description">
             <h3>Clasedea</h3>
             <AnimateText
@@ -122,7 +122,7 @@ const HomeR = () => {
             />
           </div>
         </div>
-        <div className="plato">
+        <div className="plato par">
           <div className="description">
             <h3>Clasedea</h3>
             <AnimateText

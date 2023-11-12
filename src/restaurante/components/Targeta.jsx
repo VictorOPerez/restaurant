@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import React from "react";
+import "./targeta.css";
 
 const Targeta = ({ imagen, titulo, text }) => {
   return (

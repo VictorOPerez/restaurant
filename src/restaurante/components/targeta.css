@@ -1,3 +1,51 @@
-.targetaTex {
- 
+.histori {
+  display: flex;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.histori img {
+  width: 400px;
+  height: 350px;
+  object-fit: cover;
+}
+.contHIs {
+  max-width: 500px;
+  height: 350px;
+  background-color: white;
+  color: black;
+  padding: 75px;
+}
+.menu {
+  width: 100%;
+}
+.contHIs h2 {
+  font-family: "Noto Serif", serif;
+}
+.contHIs p {
+  font-family: "Noto Serif", serif;
+  font-style: italic;
+  margin-top: 20px;
+}
+@media (max-width: 500px) {
+  .histori {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+  }
+
+  .histori img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+  }
+
+  .contHIs {
+    max-width: 400px;
+    height: 350px;
+    background-color: white;
+    color: black;
+    padding: 55px;
+  }
 }

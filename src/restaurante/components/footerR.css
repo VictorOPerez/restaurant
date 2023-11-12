@@ -12,3 +12,16 @@
   font-size: 13px;
   font-style: italic;
 }
+@media (max-width: 500px) {
+  .footerR {
+    width: 100%;
+    height: max-content;
+    background-color: rgba(128, 128, 128, 0.27);
+    gap: 50px;
+    padding: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+}

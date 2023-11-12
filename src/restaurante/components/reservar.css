@@ -18,6 +18,7 @@
   border-radius: 14px;
 }
 .constaiReserText {
+  width: max-content;
   position: absolute;
   z-index: 1;
   display: flex;
@@ -54,4 +55,30 @@
   background-color: rgba(128, 128, 128, 0.763);
   border: 2px solid white;
   scale: 1.1;
+}
+
+@media (max-width: 500px) {
+  .ContainResev {
+    width: 100%;
+    height: 500px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin-bottom: 10px;
+  }
+
+  .ContainResev img {
+    width: 90%;
+    z-index: 0;
+    position: absolute;
+    height: 100%;
+    /* box-shadow: rgb(255, 255, 255) 0px 3px 8px; */
+    box-shadow: rgb(255, 255, 255) 0px 1px 4px,
+      rgb(255, 255, 255) 0px 0px 0px 3px;
+    object-fit: cover;
+    border-radius: 14px;
+  }
 }

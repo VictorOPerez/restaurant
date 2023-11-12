@@ -12,15 +12,7 @@ const NavbarR = () => {
       >
         Steakhouse
       </p>
-      <ul
-        className="NavbarENla"
-        style={{
-          listStyle: "none",
-          display: "flex",
-          gap: "50px",
-          textDecoration: "none",
-        }}
-      >
+      <ul className="NavbarENla">
         <li>
           <a href="#">home</a>
         </li>

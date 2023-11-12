@@ -5,6 +5,9 @@
   /* background-color: antiquewhite; */
   overflow: hidden;
   margin-top: -60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .Presentacion {
@@ -35,6 +38,7 @@
   position: absolute;
   object-fit: contain;
   transform: rotate(270deg);
+  opacity: 0.4;
 }
 .portadaSarten {
   width: 300px;
@@ -44,36 +48,7 @@
     5px 0px 5px rgba(255, 255, 255, 0.629)
   ); */
 }
-.histori {
-  display: flex;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.histori img {
-  width: 400px;
-  height: 350px;
-  object-fit: cover;
-}
-.contHIs {
-  max-width: 500px;
-  height: 350px;
-  background-color: white;
-  color: black;
-  padding: 75px;
-}
-.menu {
-  width: 100%;
-}
-.contHIs h2 {
-  font-family: "Noto Serif", serif;
-}
-.contHIs p {
-  font-family: "Noto Serif", serif;
-  font-style: italic;
-  margin-top: 20px;
-}
+
 .menuTex {
   /* width: 100%; */
   display: flex;
@@ -140,4 +115,95 @@
 }
 .pla4 {
   width: 250px;
+}
+@media (max-width: 500px) {
+  .HomeR {
+    margin-top: 0px;
+    box-sizing: border-box;
+  }
+  .Presentacion {
+    padding: 0px;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+
+  .Presentacion h1 {
+    /* width: 100%; */
+    font-family: "Noto Serif", serif;
+    font-size: 40px;
+    max-width: 400px;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    transform: translateX(0px);
+    z-index: 1;
+  }
+
+  .portadFond {
+    z-index: 0;
+    width: 100%;
+    right: 0px;
+    height: 100%;
+    overflow: hidden;
+    /* height: 1099px; */
+    /* position: absolute; */
+    object-fit: cover;
+    transform: rotate(0deg);
+  }
+
+  .portadaSarten {
+    width: 300px;
+    transform: rotate(15deg);
+
+    /* filter: drop-shadow(
+      5px 0px 5px rgba(255, 255, 255, 0.629)
+    ); */
+  }
+  .menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
+  }
+  .menuTex {
+    flex-direction: column;
+    gap: 20px;
+    /* margin-bottom: 0px; */
+  }
+  .textmenu {
+    flex: 1;
+    max-width: 350px;
+    /* margin-bottom: 15px; */
+    /* text-align: left; */
+    font-family: "Noto Serif", serif;
+    text-align: center;
+    font-style: italic;
+  }
+  .conth2 {
+    flex: 1;
+    width: 300px;
+    /* width: 500px; */
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+  }
+  .menuTex h2 {
+    text-align: center;
+  }
+  .disco {
+    text-align: center;
+  }
+  .plato {
+    /* flex-direction: column; */
+    flex-direction: column-reverse;
+    gap: 40px;
+  }
+  .par {
+    flex-direction: column;
+  }
 }
